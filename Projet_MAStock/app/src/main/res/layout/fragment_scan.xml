@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Fragments.ScanFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fs_mb_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Search"
+        android:textSize="25dp"
+        android:width="300dp"
+        app:icon="@drawable/baseline_manage_search_24"
+        app:iconSize="30dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fs_mb_deposit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Deposit"
+        android:textSize="25dp"
+        android:width="300dp"
+        android:textAlignment="center"
+        app:icon="@drawable/package_box_ui_2_svgrepo_com"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/fs_mb_borrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Borrow"
+        android:textSize="25dp"
+        android:width="300dp"
+        android:textAlignment="center"
+        app:icon="@drawable/package_ui_web_svgrepo_com"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

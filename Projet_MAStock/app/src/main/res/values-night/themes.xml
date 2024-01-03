@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projet_MAStock" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">#6200EA</item> <!-- Violet primaire pour le thème sombre -->
+        <item name="colorPrimaryVariant">#3700B3</item> <!-- Variation plus sombre du violet primaire -->
+        <item name="colorSecondary">#FF1744</item> <!-- Rouge vif, couleur secondaire pour le thème sombre -->
+        <item name="colorSecondaryVariant">#D50000</item> <!-- Variation plus sombre du rouge vif -->
+        <item name="android:windowBackground">#121212</item> <!-- Fond de la fenêtre pour le thème sombre -->
+        <item name="colorSurface">#121212</item> <!-- Surface pour le thème sombre -->
+        <item name="colorError">#FFAB00</item> <!-- Jaune, pour les erreurs sur le thème sombre -->
+        <item name="colorOnPrimary">#FFFFFF</item> <!-- Texte sur fond primaire, blanc -->
+        <item name="colorOnSecondary">#FFFFFF</item> <!-- Texte sur fond secondaire, blanc -->
+        <item name="colorOnBackground">#FFFFFF</item> <!-- Texte sur fond de fenêtre, blanc -->
+        <item name="colorOnSurface">#FFFFFF</item> <!-- Texte sur surface, blanc -->
+        <item name="colorOnError">#000000</item> <!-- Texte sur fond d'erreur, noir -->
+    </style>
+</resources>
